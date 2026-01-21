@@ -1,0 +1,85 @@
+body {
+  background-image: url("markus-spiske-iar-afB0QQw-unsplash.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: #121212;
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  padding: 20px 20px;
+}
+
+.info {
+  display: flex;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: start;
+}
+
+span {
+  color: rgb(0, 255, 110);
+}
+
+.generatePass {
+  margin: 50px 10px;
+  padding: 10px 40px;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(0, 255, 110);
+  transition: all 0ms ease-in-out;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.divider {
+  height: 0.1rem;
+  border: none;
+  background-color: #034123;
+}
+
+.result {
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.res1,
+.res2 {
+  background-color: #0e0d0d;
+  padding: 10px 70px;
+  border: 2px solid rgb(43, 5, 5);
+  font-family: "Courier New", Courier;
+  color: rgb(5, 162, 162);
+  font-weight: bolder;
+}
+
+.generatePass:active {
+  transform: scale(0.89);
+  font-weight: calc(300-100);
+  background-color: rgb(22, 155, 80);
+}

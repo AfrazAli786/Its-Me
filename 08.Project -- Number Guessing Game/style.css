@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("file-20240327-24-t22ox3-768x576.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  background-color: #121212;
+  padding: 30px 40px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  max-width: 600px;
+  height: 350px;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(132, 0, 255);
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #ff0000;
+}
+#guessInput {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  min-height: 60px;
+  display: block;
+  align-self: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+#guessButton,
+#resetButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.info p {
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.info {
+  height: 75px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coverup {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#resetButton {
+  background-color: #dc3545;
+}
+#guessButton:hover {
+  background-color: #218838;
+}
+#resetButton:hover {
+  background-color: #c82333;
+}
+
+#guessInput:focus {
+  outline: none;
+  border: 2px solid #007bff;
+}
+#guessInput {
+  border: none;
+  border-radius: 5px;
+  font-size: 32px;
+  text-align: center;
+}

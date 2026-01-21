@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  text-align: center;
+  background-image: url("train.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: blueviolet;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px 10px 10px;
+}
+
+.increment-btn {
+  padding: 10px 30px;
+  margin: 0 auto;
+  background-color: #121212;
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+}
+
+.decrement-btn {
+  padding: 10px 30px;
+  margin: 0 auto;
+  background-color: #121212;
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  flex-direction: column;
+}
+
+.footer .save,
+.clear {
+  padding: 10px 100px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: larger;
+  font-weight: bold;
+  color: gold;
+  background-color: #a30a0a;
+  border: 0;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.save:hover {
+  transform: scale(1.13);
+  color: black;
+}
+
+.saved {
+  text-decoration: solid;
+  font-weight: bolder;
+  padding: 20px 20px;
+  line-height: normal;
+  font-size: 30px;
+  color: #121212;
+}
+
+.clear {
+  margin-top: 20px;
+}

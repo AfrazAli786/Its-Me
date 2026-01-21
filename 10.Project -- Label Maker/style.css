@@ -1,0 +1,16 @@
+.container {
+  align-items: start;
+  justify-content: start;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.recipient {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 10px;
+  background-color: aqua;
+  height: 300px;
+  width: 400px;
+  padding: 20px 20px;
+}

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(90, 16, 216);
+}
+
+#h1 {
+  text-align: center;
+  margin: 20px 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: azure;
+}
+.num {
+  padding: 20px 10px;
+  height: 80px;
+  width: 125px;
+  margin: 30px 30px;
+  background-color: rgb(90, 16, 216);
+  border: 2px solid white;
+  border-radius: 6px;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: 700;
+  font-size: 3.7rem;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.convert {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  width: 125px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.convert:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.convert:active {
+  background-color: rgb(150, 150, 150);
+  transform: scale(0.75);
+}
+
+.info {
+  flex: 1;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-flow: column;
+  height: calc(100%-350px);
+}
+
+.length,
+.Volume,
+.Mass {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  margin: 20px 20px;
+  color: rgb(90, 16, 216);
+  grid-column: 1;
+}
+
+#info-h1 {
+  color: rgb(90, 16, 216);
+  margin-bottom: 30px;
+}
+
+span {
+  font-weight: bold;
+  color: rgb(255, 4, 4);
+  margin: 0 5px;
+  font-size: 1.2rem;
+}
