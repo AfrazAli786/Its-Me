@@ -1,0 +1,12 @@
+{
+  "name": "parasightings",
+  "version": "1.0.0",
+  "description": "User adds ghostly encounters",
+  "license": "ISC",
+  "author": "Afraz Ali",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

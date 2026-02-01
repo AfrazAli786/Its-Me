@@ -1,0 +1,12 @@
+{
+  "name": "13.project----wild-horizon-api",
+  "version": "1.0.0",
+  "description": "For my api",
+  "license": "ISC",
+  "author": "Afraz Ali",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "module"
+}
